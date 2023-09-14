@@ -9,10 +9,8 @@ class Perceptron:
         self.test_data = test_data
 
         # points for the target function's line
-        self.x1 = random.uniform(-1, 1)
-        self.y1 = random.uniform(-1, 1)
-        self.x2 = random.uniform(-1, 1)
-        self.y2 = random.uniform(-1, 1)
+        self.x1, self.y1 = random.uniform(-1, 1), random.uniform(-1, 1)
+        self.x2, self.y2 = random.uniform(-1, 1), random.uniform(-1, 1)
         self.slope = (self.y2 - self.y1) / (self.x2 - self.x1)
         
     def target(self, point):
