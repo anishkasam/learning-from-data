@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+# pla class
 class Perceptron:
     def __init__(self, train_data, test_data):
         # weights has length of 3 for threshold, x, and y
