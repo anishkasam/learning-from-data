@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+# log reg class
 class LogisticRegression:
     def __init__(self, train_data, test_data):
         self.weights = np.array([0.0, 0.0, 0.0])

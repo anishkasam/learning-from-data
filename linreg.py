@@ -1,6 +1,7 @@
 import numpy as np
 import random
 
+# lin reg class
 class LinearRegression:
     def __init__(self, train_data, test_data):
         # weights has length of 3 for threshold, x, and y
